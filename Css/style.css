@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, #0ccda3, #f048c6);
+    width: 100vw;
+    height: 100vh;
+}
+
+.logo{
+height: 40px;
+filter: invert(1);
+}
+
+.menu{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+ul{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+li{
+    font-size: 12px; 
+    font-weight: 400;
+    
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+h1{
+font-size: 30px;
+}
+
+h2{
+font-size: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+
+p{
+font-size: 20px;
+margin-bottom: 30px;
+}
+
+h3{
+font-size: 20px;
+
+font-weight: 300;
+}
+
+.botao-compra{
+    color: #ffff;
+    background-color: blue;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: none;
+}
+
+h4{
+margin-top: 50px; 
+font-size: 16px;
+margin-bottom: 15px;
+font-weight: 700;
+color: #3a3a3a;
+
+}
+
+.trocar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+
+
+.azul{
+    background-color: #81A5C4;
+}
+
+.amarelo{
+    background-color: #F7DA47;
+}
+
+.roxo{
+    background-color: #EDE7F1;
+}
+
+.preto{
+    background-color: #272D33;
+}
+
+.vermelho{
+    background-color: #B50012;
+}
+
+.branco{
+    background-color: #C1C1C1;
+}
+
+
+.iPhone{
+    width: 450px;
+    margin-top: 100px; 
+}
+
+
+
+.circulo{
+    width: 100%;
+    height: 100%;
+    background: #81A5C4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 1000px);
+    z-index: -1;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
